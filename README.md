@@ -45,4 +45,5 @@
 ```bash
 uv sync --locked --extra ch1   # 按章安装依赖，ch1 换成对应章节编号
 cp .env.example .env           # 填入各模型供应商的 API Key
+--provider openai --model glm-5.2-external # 修改provider的时候这样修改
 ```
